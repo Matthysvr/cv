@@ -2,130 +2,60 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Matthys' Personal Site</title>
+    <title>Matthys van Rooyen</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Pacifico" rel="stylesheet">
   </head>
   <body>
-    <table cellspacing="20px">
-      <tr>
-        <td><img src="Media\IMG_2024.jpg" alt="Picture of Matthys"height="300px" ></td>
-        <td>
-          <h1>Matthys van Rooyen</h1>
-          <p><em>Student at <strong>Belgium Campus</strong>.</em></p>
-          <p>I am a C# and Web Developer. I Love Swimming and playing the Piano</p>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Coding</th>
-          <th>Adobe</th>
-          <th>Office</th>
-          <th>Web Programing</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td>C#</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Delphi</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Python</td>
-              <td>⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Java</td>
-              <td>⭐</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td>Dreamweaver</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Illustrator</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Photoshop</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Premier Pro</td>
-              <td>⭐⭐</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td>Word</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Excel</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Access</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Powerpoint</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td>HTML5</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <table border="1px">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Place</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2006-2012</td>
-          <td><a href="http://www.monnies.co.za/">Laërskool Monumentpark</a></td>
-        </tr>
-        <tr>
-          <td>2013-2017</td>
-          <td><a href="http://www.klofies.co.za/">Hoërskool Waterkloof</a></td>
-        </tr>
-        <tr>
-          <td>2018-2021</td>
-          <td><a href="https://www.belgiumcampus.ac.za/" >Belgium Campus</a></td>
-        </tr>
-      </tbody>
-    </table>
-    <hr>
-    <p><a href="hobbies.html">My Hobbies</a> <a href="contacts.html">Contact Me</a></p>
+    <div class="top-container">
+      <img src="media/cloud.png" alt="cloud-img"  class="top-cloud">
+      <h1>I'm Matthys</h1>
+      <h2>a <span class="pro">pro</span>grammer</h2>
+      <img src="media/cloud.png" alt="cloud-img" class="bottom-cloud">
+      <img src="media/mountain.png" alt="cloud-img" class="mountain">
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+
+        <h2>Hello.</h2>
+        <p class="intro">I am a C# and Web Developer. I Love Swimming and playing the Piano.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="uneaven" src="media/coding.png" alt="">
+          <h3>Coding</h3>
+          <p>I am skilled in C# and delphi, and also have some skill in Python and Java.</p>
+        </div>
+        <div class="skill-row">
+          <img class="eaven" src="media/webdev.png" alt="">
+          <h3>Web Programming</h3>
+          <p>I am skilled in C# and delphi, and also have some skill in Python and Java.</p>
+        </div>
+        <div class="skill-row">
+          <img class="uneaven" src="media/other.png" alt="">
+          <h3>Other</h3>
+          <p>I am also skilled in the Office and adobe suites.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <a class="btn" href="mailto:m.vanrooyen1999@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/matthysvr/">LinkedIn</a>
+      <a class="footer-link" href="https://web.facebook.com/matthys.vanrooyen.7">Facebook</a>
+      <br>
+      <br>
+      <div class="copyright">Icons made by itim2101 and Icon Pondfrom <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      <p class="copyright">© 2018 Matthys van Rooyen.</p>
+    </div>
+
   </body>
 </html>
