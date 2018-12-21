@@ -15,7 +15,6 @@ body {
 
 nav{
 	background-color: #D3B06C;
-	opacity: 1;
 }
 
 h1 {
@@ -63,19 +62,15 @@ a:hover {
 
 .top-container {
   position: relative;
-	padding-top: 35vh;
-	height: 90vh;
+	padding-top: 40vh;
+	height: 100vh;
 }
 
 .title{
 	color: whitesmoke;
 }
-.mountain {
-  padding-top: 110px;
-}
 
 .middle-container {
-  margin: 100px 0 0 0;
 	padding: 100px 0 100px 0;
 	background-color: #D3B06C;
 }
