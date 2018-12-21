@@ -9,9 +9,8 @@ body {
 }
 
 nav{
-	background-image: url("../media/InfluentialPicture.jpg");
-	background-attachment: fixed;
-	background-size: cover
+	background-color: #D3B06C;
+	opacity: 1;
 }
 
 h1 {
@@ -51,6 +50,10 @@ a{
 }
 a:hover {
   color: #834517;
+}
+
+.nav-link{
+	font-size: 1.8em;
 }
 
 .top-container {
