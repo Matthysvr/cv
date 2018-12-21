@@ -2,10 +2,14 @@ body {
   margin: 0;
   text-align: center;
   color: #40514e;
-	background-image: url("../media/InfluentialPicture.jpg");
+	background: url("../media/InfluentialPicture.jpg") no-repeat center center;
 	background-attachment: fixed;
   font-family: 'Merriweather', serif;
-	background-size: cover
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 nav{
