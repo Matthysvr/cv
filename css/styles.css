@@ -2,8 +2,9 @@ body {
   margin: 0;
   text-align: center;
   color: #40514e;
-	background: url("../media/InfluentialPicture.jpg") no-repeat center center;
+	background-image: url("../media/InfluentialPicture.jpg");
 	background-attachment: fixed;
+	background-position: right;
   font-family: 'Merriweather', serif;
 	background-size: cover;
 	-webkit-background-size: cover;
