@@ -5,11 +5,13 @@ body {
 	background-image: url("../media/InfluentialPicture.jpg");
 	background-attachment: fixed;
   font-family: 'Merriweather', serif;
+	background-size: cover
 }
 
 nav{
-	background-color: transparent;
 	background-image: url("../media/InfluentialPicture.jpg");
+	background-attachment: fixed;
+	background-size: cover
 }
 
 h1 {
