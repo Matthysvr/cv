@@ -41,6 +41,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    background-color: #D3B06C;
 }
 
 body {
@@ -177,7 +178,7 @@ button:focus {
     padding-top: 80px;
     padding-bottom: 80px;
     position: relative;
-    background-color: #fff;
+    background-color: #D3B06C;
 }
 
 .bg-dark {
@@ -571,70 +572,42 @@ button:focus {
     background-size: cover;
 }
 
+/*==========================
+        5.ABOUT ME
+============================*/
 
-hr{
-  border: dotted 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto 100px auto;
-  color: #834517;
+.about-detail {
+    max-width: 850px;
 }
 
-i{
-	color: whitesmoke;
+.about-detail .about-work li {
+    font-size: 18px;
+    font-weight: 600;
 }
 
-.top-container {
-  position: relative;
-	padding-top: 40vh;
-	height: 100vh;
+.about-detail .about-work li::after {
+    content: "";
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: #757575;
+    margin: 0px 12px;
+    position: relative;
+    display: inline-block;
+    top: -3px;
 }
 
-.title{
-	color: whitesmoke;
+.about-detail .about-work li:last-child:after {
+    content: "";
+    display: none;
 }
 
-.middle-container {
-	padding: 100px 0 100px 0;
-	background-color: #D3B06C;
-}
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-  padding-bottom: 80px;
+.skill-custom .progress {
+    height: 4px;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
-.middle-container img {
-  width: 25%;
-}
-
-.bottom-container {
-  background-color: transparent;
-  padding: 50px 0 20px;
-}
-
-.col{
-	padding: 30px 0; 
-}
-
-.pro {
-  text-decoration: underline;
-}
-
-.intro{
-  width: 30%;
-  margin: auto auto auto auto;
-}
-
-.copyright {
-   color: whitesmoke;
-   font-size: 0.75rem;
-   padding: 10px 0;
-}
-
-.copyright a {
-  margin: auto;
-	color: whitesmoke;
+.skill-custom .progress-bar {
+    background: #000;
 }
