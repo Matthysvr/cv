@@ -82,13 +82,13 @@ a:hover {
   padding-bottom: 80px;
 }
 
+.middle-container img {
+  width: 25%;
+}
+
 .bottom-container {
   background-color: transparent;
   padding: 50px 0 20px;
-}
-
-.middle-container img {
-  width: 25%;
 }
 
 .uneaven {
