@@ -617,10 +617,222 @@ button:focus {
     background: #000;
 }
 
+/*==========================
+        6.SERVICES
+============================*/
 
+.lan_box_ser {
+    border: 1px dotted #e7e7e7;
+}
 
+.lan_box_ser .ser_icon i {
+    font-size: 42px;
+}
 
+/*==========================
+        7.FUNFACTS
+============================*/
 
+.lan_funfact {
+    border: 1px dashed #b9b9b9;
+}
+
+.lan_funfact .lan_fun_name {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-funfact {
+    position: relative;
+    background-image: url(../media/workbg.png);
+    background-size: cover;
+    background-position: center 70%;
+}
+
+/*===========================
+        8.EDUCATION
+=============================*/
+
+.cv_edu_exp {
+    padding: 10px 0;
+    position: relative;
+}
+
+.cv_edu_exp::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    background-color: #e7e7e7;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+}
+
+.cv_edu_exp .cv_edu_exp_box {
+    border-radius: 7px;
+    border: 1px solid #e7e7e7;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.cv_edu_exp .cv_edu_exp_box .cv_edu_exp_year {
+    position: relative;
+    margin: 0 0 10px 15px !important;
+}
+
+.cv_edu_exp .cv_edu_exp_box .cv_edu_exp_year::after {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    content: "";
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+    left: -65px !important;
+    width: 20px;
+    z-index: 1;
+}
+
+.cv_edu_exp .cv_edu_exp_box .cb_edu_exp_detail {
+    text-align: left;
+    margin-left: 15px;
+    float: left;
+    border-radius: 0;
+}
+
+.cv_edu_exp h4,
+.cb_edu_exp_detail h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.cv_desc {
+    line-height: 26px;
+    font-size: 15px;
+    color: #666;
+}
+
+/*==========================
+        9.CTA SECTION
+============================*/
+
+.bg-cta {
+    position: relative;
+    background-image: url(../media/workbg2.jpg);
+    background-size: cover;
+    background-position: center 70%;
+}
+
+/*===========================
+        10.WORK
+=============================*/
+
+.work_menu li a {
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #9a9a9a !important;
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+
+.work_menu li {
+    margin-right: 0px !important;
+}
+
+.work_menu li:after {
+    content: "";
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: #757575;
+    margin: 0px 16px;
+    position: relative;
+    display: inline-block;
+    top: -3px;
+}
+
+.work_menu li:last-child:after {
+    content: "";
+    display: none;
+}
+
+.work_menu a.active,
+.work_menu a:hover {
+    color: #000 !important;
+}
+
+.work_item {
+    position: relative;
+    padding: 15px;
+}
+
+.work_box {
+    overflow: hidden;
+    position: relative;
+}
+
+.work_box .work_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.work_box .work_img:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.work_box .work_img>img {
+    transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+    border-radius: 0;
+}
+
+.work_box .work_detail {
+    opacity: 0;
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.work_box .work_detail h4 {
+    font-size: 18px;
+}
+
+.work_box .work_detail p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+.work_box:hover .work_detail {
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: 1;
+}
+
+.work_box:hover .work_img:after {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.work_box:hover .work_img>img {
+    transform: scale(1.2);
+}
 
 /*==========================
         14.RESPONSIVE
@@ -709,3 +921,80 @@ button:focus {
     }
 }
 
+/*==========================
+        15.CONTACT US
+============================*/
+
+.form-sub-title {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.contact_form .form-control {
+    box-shadow: none !important;
+    height: 44px;
+    border-radius: 0px;
+}
+
+.contact_form .form-control:focus {
+    border-color: #000;
+}
+
+.contact_form textarea.form-control {
+    height: auto;
+}
+
+.error {
+    margin: 8px 0px;
+    display: none;
+    color: red;
+}
+
+.error_msg {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    font-weight: 700;
+}
+
+.gig_loader {
+    display: none;
+}
+
+#success_msg {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#success_msg h3 {
+    color: #0dba26;
+    font-size: 22px;
+}
+
+/*==========================
+        16.FOOTER
+============================*/
+
+.fot_social .social-icon {
+    border: 2px solid #868e96;
+    border-radius: 50%;
+    transition: all 0.5s;
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.fot_social .social-icon:hover {
+    border-color: #000;
+    color: #000 !important;
+    transform: rotate(360deg);
+}
+
+.copy-rights {
+    line-height: 43px;
+}
