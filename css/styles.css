@@ -1,9 +1,9 @@
 /*
 ------------------------------------------------------------------------
-* Template Name    : Elvish | Responsive Bootstrap 4 Personal Template * 
-* Author           : ThemesBoss                                        *
+* Website Name     : Matthys | Personal Webpage                        * 
+* Author           : Matthys van Rooyen                                *
 * Version          : 1.0.0                                             *
-* Created          : May 2018                                        *
+* Created          : Dec 2018                                          *
 * File Description : Main Css file of the template                     *
 *-----------------------------------------------------------------------
 */
@@ -842,7 +842,7 @@ button:focus {
     .custom-nav {
         margin-top: 0px;
         padding: 10px 0px !important;
-        background-color: #fff !important;
+        background-color: #D3B06C !important;
     }
     .custom-nav .navbar-nav li a:before {
         content: '';
